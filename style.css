@@ -1,0 +1,250 @@
+body {
+    background-color:white; /* Light grey background color for the body */
+    margin: 0; /* Remove default margins */
+    font-family: 'Oswald', sans-serif; /* Optional: Apply a font family */
+}
+.header {
+    margin-left: 25px;
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    margin-top: 0;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.header-logo {
+    width: 20px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid white; /* White border around the logo */
+    border-radius: 50%; /* Optional: make the border round */
+    margin-right: 10px; /* Space between the logo and the text */
+}
+
+.Flag{
+    width: 100%;
+    height: 40px;
+    background-color: #272343;
+}
+
+.box {
+    margin: 4px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    width: 90px;
+    height: 30px;
+    border-radius: 5%;
+    background-color: #bae8e8;
+    font-family: "Oswald", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+        
+
+.box1 {
+    margin: 4px;
+    position: absolute; /* Position the box absolutely relative to .Flag */
+    right: 100px; 
+    top: 0; /* Align the box to the top of the .Flag */
+    width: 90px; /* Width of the box */
+    height:30px; /* Height of the box */
+    border-radius: 5%;
+    background-color: #bae8e8; /* Background color of the box */
+    font-family:  "Oswald", sans-serif; /* or any other font you prefer */
+    font-size: 10px; /* Adjust the font size if needed */
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.me3services-container {
+    display: flex;
+    align-items: center; /* Vertically align the text and logo */
+    justify-content: space-between; /* Place text on the left and logo on the far right */
+    margin-top: 20px;
+    padding: 0 30px; 
+}
+
+.me3services {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 90px;
+    margin-right: 20px; /* Space between the text and the logo */
+    color: #15005d;
+   
+}
+
+.logo img {
+    width: 100px; /* Adjust logo size as needed */
+    height: auto;
+    border-radius: 5px;
+}
+.line {
+    border: 1px;;
+    height: 5px; /* Thickness of the line */
+    background-color: #272343; /* Color of the line */
+    margin: 20px 30px 0; /* Margin for spacing */
+}
+.display {
+    text-align: center; /* Center the image horizontally */
+    margin: 40px 0; /* Increase space above and below the image */
+    height: 300px; /* Set the height of the container to crop the image */
+    position: relative; /* Allow absolute positioning within the container */
+}
+
+.display {
+    width: 100%; /* Full width for scrolling */
+    height: 100px; /* Adjust height as needed */
+    margin: 20px auto;
+    background-color: #7c73e6;
+    color: whitesmoke;
+    font-family: "Righteous", sans-serif;
+    font-size: 50px;
+    overflow: hidden; /* Hide overflowing text */
+    position: relative; /* Required for positioning the text */
+}
+
+.display-content {
+    margin: 18PX;
+    position: relative; /* Position text relative to the container */
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: scroll-text 10s linear infinite; /* Apply animation */
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%); /* Start from right end */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to left end */
+    }}
+
+    .box2 {
+        display: flex;
+        align-items: flex-start; /* Align items to the top */
+        margin-top: 40px;
+        background-color: #f9f9f9; /* Light background for the box */
+        padding: 20px; /* Add padding inside the box */
+        border: 2px solid #ddd; /* Optional border for the box */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the box */
+    }
+    
+    .img2 img {
+        width: 350px; /* Adjust image size */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 20px; /* Add space between image and text */
+    }
+    
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .text-container h1 {
+        text-align: left; /* Align heading to the left */
+        font-size: 40px; /* Adjust font size */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .text1 {
+        text-align: left; /* Align text to the left */
+        font-size: 18px;
+        margin-top: 10px; /* Add space between heading and paragraph */
+        line-height: 1.6;
+    }
+    .box3 {
+        display: flex;
+        align-items: flex-start; /* Align items to the top */
+        margin-top: 40px;
+        background-color: #e7eaf6; /* Light background for the box */
+        padding: 20px; /* Add padding inside the box */
+        border: 2px solid #ddd; /* Optional border for the box */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the box */
+    }
+    
+    .img3 img {
+        width: 350px; /* Adjust image size */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 20px; /* Add space between image and text */
+    }
+    
+    .text-container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .text-container2 h1 {
+        text-align: left; /* Align heading to the left */
+        font-size: 40px; /* Adjust font size */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .text2 {
+        text-align: left; /* Align text to the left */
+        font-size: 18px;
+        margin-top: 10px; /* Add space between heading and paragraph */
+        line-height: 1.6;
+    }
+    .box4 {
+        display: flex;
+        align-items: flex-start; /* Align items to the top */
+        margin-top: 40px;
+        background-color: #f9f9f9; /* Light background for the box */
+        padding: 20px; /* Add padding inside the box */
+        border: 2px solid #ddd; /* Optional border for the box */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the box */
+    }
+    
+    .img4 img {
+        width: 350px; /* Adjust image size */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 20px; /* Add space between image and text */
+    }
+    
+    .text-container4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .text-container4 h1 {
+        text-align: left; /* Align heading to the left */
+        font-size: 40px; /* Adjust font size */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .text4 {
+        text-align: left; /* Align text to the left */
+        font-size: 18px;
+        margin-top: 10px; /* Add space between heading and paragraph */
+        line-height: 1.6;
+    }
+    footer {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically (if needed) */
+        color:black; /* Optional: Text color */
+        bottom: 0; /* Optional: Align to the bottom of the page */
+        width: 100%; /* Full width of the page */
+        text-align: center; /* Center the text inside */
+        font-size: 15px;
+        
+    }
+    
+    footer h1 {
+        margin: 0; /* Remove default margin */
+        font-family: "Grey Qo", cursive;
+    }
